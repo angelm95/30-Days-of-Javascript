@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    background: url('DrumBackground.jpg') bottom center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .key {
+    border: .6rem solid rgba(121, 224, 228, 0.753);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: rgb(100, 230, 240);
+    background: rgb(40, 28, 196) (0, 0, 0, 0.507);
+    text-shadow: 0 0 1rem rgb(226, 226, 226);
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #d13fbe;
+    box-shadow: 0 0 1rem #d13fbe;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 5rem;
+  }
+  
+  .sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #eb2aba;
+  }
